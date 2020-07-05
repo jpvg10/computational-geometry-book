@@ -86,6 +86,7 @@ Para representar una recta definida por dos puntos se usa la clase de Java \emph
 \lstinputlisting[firstline=9, lastline=11]{./src/Lineas.java}
 
 \subsection{Distancias}
+\includegraphics[width=0.8\columnwidth]{distancias}
 
 \subsubsection{Distancia de un punto a una recta}
 \lstinputlisting[firstline=13, lastline=14]{./src/Lineas.java}
@@ -126,7 +127,7 @@ Perímetro:  \( 2 \pi r \)
 \lstinputlisting[firstline=7, lastline=17]{./src/Circulos.java}
 
 \subsection{Arco, sector, cuerda y segmento}
-% \includegraphics{sector}
+\includegraphics[width=0.8\columnwidth]{circulos}
 
 Longitud del Arco: \( r \theta \)
 
@@ -148,7 +149,7 @@ Sean \( w = x_1-x_0 \) y \( t = y_1-y_0 \). La ecuación general de la recta tan
 
 \section{Triángulos}
 
-% \includegraphics{triangulo}
+\includegraphics{triangulo}
 
 \subsection{Desigualdad triangular}
 Todo triángulo cumple las siguientes desigualdades:
@@ -173,6 +174,7 @@ Si se tienen las coordenadas \( (x_i, y_i) \) de los tres puntos que definen un 
 \[ c^2 = a^2 + b^2 - 2ab \cdot \cos(\gamma) \]
 
 \subsection{Círculo inscrito y circunscrito}
+\includegraphics[width=0.8\columnwidth]{inscrito-circunscrito}
 \[ r_i = \frac{A}{s}, \quad r_c = \frac{abc}{4A} \]
 
 
@@ -180,6 +182,9 @@ Si se tienen las coordenadas \( (x_i, y_i) \) de los tres puntos que definen un 
 Un polígono de \( n \) puntos se representa como un vector de \( n \) posiciones de tipo \emph{Point2D.Double}.
 
 Se asume por defecto que los puntos {\bf están ordenados en sentido antihorario}. Si el polígono no está ordenado, estos algoritmos no sirven. Habría que ordenarlo primero.
+
+\subsection{Tipos de polígonos}
+\includegraphics[width=0.6\columnwidth]{poligonos}
 
 \subsection{Perímetro}
 \lstinputlisting[firstline=9, lastline=17]{./src/Poligonos.java}
